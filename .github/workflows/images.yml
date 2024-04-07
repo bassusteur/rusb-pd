@@ -16,11 +16,9 @@ jobs:
           output_path: ${{ github.workspace }}/images
           
       - name: Setup Pages
-        if: github.ref == 'refs/heads/master'
         uses: actions/configure-pages@v3
 
       - name: Upload Artifact
-        if: github.ref == 'refs/heads/master'
         uses: actions/upload-pages-artifact@v1
         with:
           path: "images"
