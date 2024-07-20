@@ -1,5 +1,5 @@
 # Radio USB-PD
-power your ham radio with usb-pd at 12V using this adapter with programmable microcontroller ch32v003 for all your needs and usb-pd controller FUSB302
+power your ham radio with a regular usb type-c power delivery compatible power supply using this adapter
 
 images:
 ![top](https://bassusteur.github.io/rusb-pd/top.png)
